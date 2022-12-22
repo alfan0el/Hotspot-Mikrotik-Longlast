@@ -21,10 +21,7 @@ html {
 }
 
 body {
-  background: #a2a09b;
-  background: -webkit-linear-gradient(315deg, hsla(236.6, 0%, 53.52%, 1) 0, hsla(236.6, 0%, 53.52%, 0) 70%), -webkit-linear-gradient(65deg, rgb(0, 0, 0) 10%, hsla(220.75, 34.93%, 26.52%, 0) 80%),
-    -webkit-linear-gradient(135deg, hsla(46.42, 36.62%, 83.92%, 1) 15%, hsla(46.42, 36.62%, 83.92%, 0) 80%), -webkit-linear-gradient(205deg, rgb(161, 161, 161) 100%, hsla(191.32, 50.68%, 56.45%, 0) 70%);
-  background: linear-gradient(135deg, hsla(236.6, 0%, 53.52%, 1) 0, hsla(236.6, 0%, 53.52%, 0) 70%), linear-gradient(25deg, rgb(0, 0, 0) 10%, hsla(220.75, 34.93%, 26.52%, 0) 80%),
+  background: url("/img/longlastbackground.png"), linear-gradient(135deg, hsla(236.6, 0%, 53.52%, 1) 0, hsla(236.6, 0%, 53.52%, 0) 70%), linear-gradient(25deg, rgb(0, 0, 0) 10%, hsla(220.75, 34.93%, 26.52%, 0) 80%),
     linear-gradient(315deg, #e5dec7 15%, hsla(46.42, 36.62%, 83.92%, 0) 80%), linear-gradient(245deg, rgb(126, 141, 145) 100%, hsla(191.32, 50.68%, 56.45%, 0) 70%);
 }
 a {
